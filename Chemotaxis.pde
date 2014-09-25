@@ -3,7 +3,7 @@ Bacteria [] colony;
  {     
  	size(300,300);
  	//initialize bacteria variables here   
- 	colony = new Bacteria[20 ];
+ 	colony = new Bacteria[40 ];
  	for (int i = 0; i < colony.length; i++)
  	{
  		colony[i] = new Bacteria(150,150);
